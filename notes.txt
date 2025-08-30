@@ -1,1 +1,1 @@
-1. Code is run from the bin folder.
+- Dart is such an amazing language. It makes things so easy to be done!
