@@ -31,13 +31,3 @@ class Position {
     print("Pos == ${toString()}");
   }
 }
-
-List<T> where<T>(List<T> items, bool Function(T) f) {
-  List<T> results = [];
-  for (var item in items) {
-    if (f(item)) {
-      results.add(item);
-    }
-  }
-  return results;
-}
