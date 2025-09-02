@@ -1,4 +1,4 @@
-import "package:simple_app/person.dart";
+import "package:simple_app/random_stuff/person.dart";
 
 void main() {
   Person pp = Person(22, firstname: "Emeka", lastName: "Ony", age: 24);
