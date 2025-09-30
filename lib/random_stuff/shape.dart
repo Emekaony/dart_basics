@@ -63,6 +63,8 @@ void main() {
     (shape) => Shape.fromJson(shape),
   );
   for (Shape shape in shapes) {
-    shape.printArea();
+    final String message =
+        "This is a ${shape.runtimeType} and its area is: ${shape.area}";
+    print(message);
   }
 }
